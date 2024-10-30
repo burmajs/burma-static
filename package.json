@@ -25,5 +25,9 @@
   "dependencies": {
     "@burmajs/mime": "^0.1.0",
     "store": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burmajs/burma-static.git"
   }
 }
