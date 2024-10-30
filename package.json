@@ -1,0 +1,29 @@
+{
+  "name": "@burmajs/burma-static",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "check": "biome check --write src",
+    "format": "biome format --write src",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.8.2",
+    "@types/store": "^2.0.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@burmajs/mime": "^0.1.0",
+    "store": "^2.0.12"
+  }
+}

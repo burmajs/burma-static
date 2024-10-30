@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+web
+a.ts
+b.ts
+c.ts
+d.ts
+e.ts
+.cache_static
+lib
+dist
