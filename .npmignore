@@ -5,3 +5,4 @@ web
 .gitignore
 a.ts
 biome.json
+tsconfig.json
