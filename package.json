@@ -29,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/burmajs/burma-static.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
